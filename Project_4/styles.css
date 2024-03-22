@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+#header ul {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    margin-right: 80px;
+}
+
+#header a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+#header img {
+    width: 250px;
+    align-self: flex-start;
+    margin-left: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 25%;
+}
+
+#form input {
+    width: 100%;
+    border-radius: 5px;
+    height: 25px;
+    border: 1px solid black;
+}
+
+#submit {
+    width: 50% !important;
+    align-self: center;
+    color: white;
+    background-color: orange;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.row {
+    width: 70%;
+    display: flex;
+    padding: 1%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row img {
+    width: 50px;
+}
+
+#How_it_works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 20%;
+    padding: 1%;
+}
+
+.container h2 {
+    position: relative;
+    width: 100%;
+}
+
+.container button {
+    width: 100%;
+    border-radius: 5px;
+    height: 25px;
+    align-self: center;
+    color: white;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+#Pricing {
+    margin-top: 35px;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+@media (max-width: 815px) {
+    #Pricing {
+        flex-direction: column;
+        width: 100%;
+    }
+}
